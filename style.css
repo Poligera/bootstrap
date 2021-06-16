@@ -1,18 +1,23 @@
 .navbgcol1 {
-    background-color: #2ff0c6;
+  background-color: #2ff0c6;
 }
 
-.short-text { display: none; }
-
+.short-text {
+  display: none;
+}
 
 @media only screen and (max-width: 720px) {
-    .navbgcol1 {
-        background-color: #e5ff00;
-    }
-    .short-text { 
-        display: inline-block; 
-    }
-    .full-text { 
-        display: none; 
-    }
+  .navbgcol1 {
+    background-color: #e5ff00;
+  }
+  .short-text {
+    display: inline-block;
+  }
+  .full-text {
+    display: none;
+  }
+
+  .container-sm {
+    overflow-wrap: wrap;
+  }
 }
